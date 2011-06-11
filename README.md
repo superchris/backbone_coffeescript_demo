@@ -32,4 +32,4 @@ Run `rake jasmine` and then visit `http://localhost:8888` to execute Jasmine tes
 Application source code
 =======================
 
-Backbone.js models and views written in CoffeeScript are located in `app/coffeescripts` directory and Jasmine tests are located in `spec/coffeescripts` directory.
+Backbone.js models and views written in CoffeeScript are located in `app/assets/javascripts` directory and Jasmine tests are located in `spec/coffeescripts` directory.
