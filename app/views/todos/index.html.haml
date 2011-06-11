@@ -11,10 +11,6 @@
 %ul#instructions
   %li Double-click to edit a todo.
 
-:coffeescript
-  $ ->
-    TodoApp.appView = new TodoApp.AppView collection: new TodoApp.TodoList
-
 %script#item-template{:type => "text/html"}
   .todo{:class => "{{#done}}done{{/done}}"}
     .display
