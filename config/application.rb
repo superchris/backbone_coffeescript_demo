@@ -46,5 +46,7 @@ module BackboneTodo
     end
     
     config.assets.enabled = true
+    config.assets.paths << Rails.root.join("spec", "assets", "javascripts").to_s
+    config.assets.paths << Rails.root.join("spec", "assets", "stylesheets").to_s
   end
 end

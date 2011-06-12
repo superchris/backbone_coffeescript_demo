@@ -7,3 +7,4 @@ log/*.log
 tmp/**/*
 /public/javascripts/compiled
 /spec/javascripts/compiled
+.redcar
