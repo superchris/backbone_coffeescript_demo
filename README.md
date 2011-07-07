@@ -27,7 +27,7 @@ And then visit `http://localhost:3000`.
 Running tests
 =============
 
-Run `rake jasmine` and then visit `http://localhost:8888` to execute Jasmine tests and see results.
+Start the rails server and visit `http://localhost:3000/SpecRunner.html` to execute Jasmine tests.
 
 Application source code
 =======================
